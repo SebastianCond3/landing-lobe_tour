@@ -1,0 +1,10 @@
+:root {
+    --light-green: #04ddb2;
+    --black: #333;
+    --white:#fff;
+    --gray: #767676;
+}
+* {
+    /*fonts 400 500 700 900*/
+    font-family: "Darker Grotesque", sans-serif;
+}
