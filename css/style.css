@@ -80,3 +80,63 @@ main {
     border-radius: 24px;
     margin-top: 20px;
 }
+footer {
+    display: flex;
+    place-content: center;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-top: 1px solid black;
+    place-items: center;
+    margin-top: 50px;
+}
+.title {
+    font-weight: 700;
+    font-size: 20px;
+}
+.list-container ul li {
+    list-style: none;
+}
+.list-container a {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 500;
+    font-size: 16px;
+}
+.section-3 .list-container {
+    display: flex;
+}
+.subsection-img {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.subsection, .section-1, .section-2, .section-4 {
+    line-height: 30px;
+}
+.icons-footer {
+    margin-bottom: 10px;
+}
+.reddit, .twitter, .youtube {
+    padding: 5px;
+    background: var(--light-green);
+    border-radius: 50%;
+ }
+.section-1, .section-2, .section-3, .section-4 {
+    margin: 24px 0;
+    text-align: center;
+}
+.logo-footer {
+    width: 100px;
+    height: 100px;
+}
+.section-1 a, .section-2 a, .section-3 a, .section-4 {
+    font-weight: 500;
+    font-size: 20px;
+}
+.list-container ul li p {
+    font-weight: 500;
+    font-size: 20px;
+}
