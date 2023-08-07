@@ -34,3 +34,49 @@ header {
     width: 20px;
     height: 20px;
 }
+main {
+    display: flex;
+    place-content: center;
+    padding-top: 80px;
+    place-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.name-company {
+    font-family: "Darker Grotesque", sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+}
+.green-text {
+    color: var(--light-green);
+}
+.text-h1 {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 42px;
+}
+.main-img {
+    margin: 50px 0;
+    border: none;
+    border-radius: 20px;
+    width: 290px;
+    height: 170px;
+}
+.suggestion {
+    text-align: center;
+    font-weight: 900;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.primary-button {
+    width: 146px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+    background-color: var(--light-green);
+    border: none;
+    border-radius: 24px;
+    margin-top: 20px;
+}
