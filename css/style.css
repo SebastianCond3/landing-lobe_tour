@@ -112,7 +112,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 90%;
-    border-top: 1px solid black;
+    border-top: 1px solid var(--gray);
     place-items: center;
     margin-top: 50px;
 }
@@ -263,5 +263,40 @@ footer {
     .main-img {
         width: 890px;
         height: 490px;
+    }
+}
+@media (min-width: 1150px) {
+    .start-a {
+        margin-left: 320px;
+    }
+    .end-a {
+        margin-right: 320px;
+    }
+    .logo-header, .primary-button-header {
+        margin: 10px 60px;
+    }
+    .name-company {
+        font-size: 70px;
+    }
+    .main-img {
+        width: 980px;
+        height: 560px;
+
+    }
+    .primary-button {
+        width: 190px;
+        height: 60px;
+        font-size: 26px;
+    }
+    .footer {
+        width: 70%;
+    }
+    .subsection-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icons-footer {
+        width: 25px;
+        margin-left: 20px;
     }
 }
